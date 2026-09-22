@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eef1f5;
+  color: #14141f;
+}
+
+/* Hide scrollbar but keep scroll functionality for horizontal rails */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Continuous marquee animation for auto-sliding rails */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-scroll 90s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
