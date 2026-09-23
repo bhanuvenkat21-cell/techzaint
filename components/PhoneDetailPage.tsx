@@ -400,16 +400,16 @@ function InfoTab({
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-6">
         <div className="space-y-4">
-          <div className="relative bg-white rounded-xl border border-gray-100 overflow-hidden">
-            <span className="absolute top-3 left-3 z-10 bg-emerald-600 text-white text-xs font-bold px-2.5 py-1.5 rounded">
-              {productData.techInfoScore}% Spec Score
-            </span>
-            <div className="absolute top-3 right-3 flex gap-2 z-10">
-              <button className="p-2 bg-white/90 backdrop-blur rounded-full shadow-sm hover:bg-white transition-colors"><Heart size={16} className="text-gray-600" /></button>
-              <button className="p-2 bg-white/90 backdrop-blur rounded-full shadow-sm hover:bg-white transition-colors"><Share2 size={16} className="text-gray-600" /></button>
-            </div>
-            <motion.img key={selectedImage} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} src={productData.images[selectedImage]} alt={productData.name} className="w-full h-[420px] object-contain p-8" />
-          </div>
+          <div className="relative bg-white rounded-xl border border-gray-100 overflow-hidden aspect-square max-w-sm mx-auto">
+  <span className="absolute top-3 left-3 z-10 bg-emerald-600 text-white text-xs font-bold px-2.5 py-1.5 rounded">
+    {productData.techInfoScore}% Spec Score
+  </span>
+  <div className="absolute top-3 right-3 flex gap-2 z-10">
+    <button className="p-2 bg-white/90 backdrop-blur rounded-full shadow-sm hover:bg-white transition-colors"><Heart size={16} className="text-gray-600" /></button>
+    <button className="p-2 bg-white/90 backdrop-blur rounded-full shadow-sm hover:bg-white transition-colors"><Share2 size={16} className="text-gray-600" /></button>
+  </div>
+  <motion.img key={selectedImage} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} src={productData.images[selectedImage]} alt={productData.name} className="absolute inset-0 w-full h-full object-contain p-8" />
+</div>
           <div className="grid grid-cols-4 gap-3">
             {productData.images.map((img, idx) => (
               <button key={idx} onClick={() => setSelectedImage(idx)} className={`aspect-square rounded-lg overflow-hidden border-2 transition-all ${selectedImage === idx ? "border-orange-500 ring-2 ring-orange-100" : "border-gray-200 hover:border-gray-300"}`}>
