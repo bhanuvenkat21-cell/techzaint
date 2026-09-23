@@ -5,9 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Tech info| Research. Compare. Buy.",
-  description:
-    "A front-end clone of the 91mobiles homepage — mobiles, laptops, tablets and gadget news.",
+  title: "Tech zaint| Research. Compare. Buy.",
+  
 };
 
 export default function RootLayout({
