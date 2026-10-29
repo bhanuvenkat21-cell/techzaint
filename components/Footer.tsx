@@ -48,10 +48,10 @@ export default function Footer() {
             <p>
               Are you a tech lover who wants to stay updated on the latest phones, specs, and
               launches? Do you enjoy comparing honest specs and pricing before making a decision?
-              If so, you&apos;ve come to the right place — welcome to TechInfo.
+              If so, you&apos;ve come to the right place — welcome to Techzaint
             </p>
             <p>
-              TechInfo is your one-stop destination for everything mobile. We cover{" "}
+              Techzaint is your one-stop destination for everything mobile. We cover{" "}
               <Link href="/mobiles" className="underline hover:text-[#e63946]">
                 phones
               </Link>
@@ -129,7 +129,7 @@ export default function Footer() {
           </div>
 
           <div className="mt-10 border-t border-white/10 pt-6 text-center text-xs text-gray-500">
-            © {new Date().getFullYear()} TechInfo. All rights reserved.
+            © {new Date().getFullYear()} Techzaint. All rights reserved.
           </div>
         </div>
       </div>

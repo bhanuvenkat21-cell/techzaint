@@ -175,15 +175,15 @@ export default function ContactPage() {
           We are committed to providing our readers with the best possible experience and welcome
           your feedback and suggestions. Please don&apos;t hesitate to reach out to us at the
           following email ID —{" "}
-          <a href="mailto:feedback@techinfo.com" className="text-[#e63946] hover:underline">
-            feedback@techinfo.com
+          <a href="mailto:feedback@techzaint.com" className="text-[#e63946] hover:underline">
+            feedback@techzaint.com
           </a>
         </div>
 
         <div className="rounded-lg bg-white px-5 py-4 text-sm text-gray-700">
           You can also write to us on{" "}
-          <a href="mailto:support@techinfo.com" className="text-[#e63946] hover:underline">
-            support@techinfo.com
+          <a href="mailto:support@techzaint.com" className="text-[#e63946] hover:underline">
+            support@techzaint.com
           </a>
         </div>
 
@@ -192,8 +192,8 @@ export default function ContactPage() {
           <p>
             We highly appreciate and value your opinions and feedback regarding our extensive
             coverage and content. To share your insights, reach out to the email ID -{" "}
-            <a href="mailto:editors@techinfo.com" className="text-[#e63946] hover:underline">
-              editors@techinfo.com
+            <a href="mailto:editors@techzaint.com" className="text-[#e63946] hover:underline">
+              editors@techzaint.com
             </a>
           </p>
         </div>
@@ -203,8 +203,8 @@ export default function ContactPage() {
           <p>
             Discover how our marketing team can help elevate your brand&apos;s success. Reach out
             on the email ID —{" "}
-            <a href="mailto:marketing@techinfo.com" className="text-[#e63946] hover:underline">
-              marketing@techinfo.com
+            <a href="mailto:marketing@techzaint.com" className="text-[#e63946] hover:underline">
+              marketing@techzaint.com
             </a>
           </p>
         </div>
@@ -213,8 +213,8 @@ export default function ContactPage() {
           <h3 className="font-bold text-gray-900 mb-1">SALES</h3>
           <p>
             Looking to share an exciting sales pitch? Reach us at —{" "}
-            <a href="mailto:sales@techinfo.com" className="text-[#e63946] hover:underline">
-              sales@techinfo.com
+            <a href="mailto:sales@techzaint.com" className="text-[#e63946] hover:underline">
+              sales@techzaint.com
             </a>
           </p>
         </div>
